@@ -1,0 +1,17 @@
+{
+  "name": "TCVT4",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://manager.masvoz.es/index.php?sec=agentes&sec_param=webphone&r=1624190860840"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup":"popup.html",
+    "default_title": "CTV2"
+  },
+ 
+  "permissions": ["tabs"]
+}
